@@ -1,0 +1,75 @@
+@charset "utf-8";
+/* CSS Document */
+
+#section {
+	margin:10px 0px 0px;
+}
+#section hr {
+	border-bottom:none;
+	border-top:1px solid #dadada;
+	margin:0px;
+}
+#section > .test {
+	background-color:#FFF;
+	padding:0px 10px;
+}
+#section > .test label {
+	float:left;
+	line-height:44px;
+	color:#323232;
+	font-size:14px;
+	font-weight:normal;
+}
+#section > .test select {
+	display:inline-block;
+	font-size:14px;
+	width:22%;
+	height:30px;
+	line-height:26px;
+	border:1px solid #dadada;
+	margin:7px 2px 0px;
+}
+#section > .test input[type = text] {
+	width:220px;
+	height:32px;
+	line-height:44px;
+	border:bone;
+	margin:6px 0px;
+	display:inline-block;
+	font-size:16px;
+	float:left;
+}
+
+
+
+
+@media (min-width:375px) and (max-width:480px) {
+	#section > .test label,#section > .test input[type = text],#section > .test select {
+		font-size:16px;
+    }
+}
+
+@media (min-width:481px) and (max-width:621px) {
+	#section > .test label,#section > .test input[type = text],#section > .test select {
+		font-size:18px;
+    }
+}
+
+@media (min-width:622px) {
+	#section > .test label,#section > .test input[type = text],#section > .test select {
+		font-size:20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,74 @@
+@charset "utf-8";
+/* CSS Document */
+
+#section {
+	margin:20px 0px 0px;
+}
+#section hr {
+	border-bottom:none;
+	border-top:1px solid #dadada;
+	margin:0px;
+}
+#section > figure {
+	background-color:#FFF;
+	padding:0px 10px;
+}
+#section > figure figcaption {
+	float:left;
+	line-height:60px;
+	color:#323232;
+	font-size:16px;
+	font-weight:normal;
+}
+#section > figure img {
+	float:right;
+	height:30px;
+	margin:15px 10px;
+}
+#section .button {
+	width:46%;
+	margin:20px auto 0px;
+	line-height:40px;
+	color:#fff;
+	font-size:18px;
+	background-color:#e9901f;
+	text-align:center;
+	border-radius:4px;
+}
+
+
+
+@media (min-width:375px) and (max-width:480px) {
+	#section > figure figcaption {
+		font-size:18px;
+	}
+    #section .button {
+		font-size:20px;
+	}
+}
+
+@media (min-width:481px) and (max-width:621px) {
+	#section > figure figcaption {
+		font-size:20px;
+	}
+    #section .button {
+		font-size:22px;
+	}
+}
+
+@media (min-width:622px) {
+	#section > figure figcaption {
+		font-size:22px;
+	}
+    #section .button {
+		font-size:24px;
+	}
+}
+
+
+
+
+
+
+
+

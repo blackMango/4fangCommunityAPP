@@ -1,0 +1,119 @@
+@charset "utf-8";
+/* CSS Document */
+#section {
+	margin:10px 0px;
+}
+#section hr {
+	border-bottom:none;
+	border-top:1px solid #dadada;
+	margin:0px;
+}
+#section .changeadress {
+	background-color:#FFF;
+	padding:0px 10px;
+}
+
+#section h3 {
+	font-size:14px;
+	line-height:44px;
+	color:#323232;
+	float:left;
+}
+#section h3 span {
+	font-size:14px;
+	line-height:44px;
+	color:#646464;
+	color:rgba(0,0,0,0);
+}
+#section h6 {
+	font-size:12px;
+	line-height:36px;
+	color:#e9901f;
+	float:right;
+	margin:0px 10px;
+}
+#section h5 {
+	font-size:12px;
+	line-height:36px;
+	color:#646464;
+	float:left;
+	margin:0px 0px 0px 4px;
+}
+#section select {
+	display:inline-block;
+	font-size:12px;
+	width:24%;
+	height:32px;
+	line-height:32px;
+	border:1px solid #dadada;
+	margin:6px 0px;
+}
+#section input[type = tel],#section input[type = text] {
+	width:76%;
+	height:32px;
+	line-height:32px;
+	border:bone;
+	margin:6px 0px;
+	display:inline-block;
+	font-size:12px;
+}
+#section input[type = checkbox] {
+	width:14px;
+	height:14px;
+	margin:10px 0px 0px 10px;
+	display:inline-block;
+	float:left;
+}
+
+
+@media (min-width:375px) and (max-width:480px) {
+	#section h3,#section h3 span {
+		font-size:16px;
+	}
+	#section h6,#section h5 {
+		font-size:14px;
+	}
+	#section select {
+		font-size:14px;
+		width:25%;
+	}
+	#section input[type = tel],#section input[type = text] {
+		width:77%;
+		font-size:14px;
+	}
+}
+
+@media (min-width:481px) and (max-width:621px) {
+	#section h3,#section h3 span {
+		font-size:18px;
+	}
+	#section h6,#section h5 {
+		font-size:16px;
+	}
+	#section select {
+		font-size:16px;
+		width:26%;
+	}
+	#section input[type = tel],#section input[type = text] {
+		width:80%;
+		font-size:16px;
+	}
+}
+
+@media (min-width:622px) {
+	#section h3,#section h3 span {
+		font-size:20px;
+	}
+	#section h6,#section h5 {
+		font-size:18px;
+	}
+	#section select {
+		font-size:18px;
+		width:27%;
+  }
+	#section input[type = tel],#section input[type = text] {
+		width:83%;
+		font-size:18px;
+	}
+}
+

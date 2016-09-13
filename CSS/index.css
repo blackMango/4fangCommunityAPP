@@ -1,0 +1,280 @@
+
+@charset "utf-8";
+/* CSS Document */
+#section > .searchbox {
+	position:fixed;
+	top:0px;
+	z-index:9999;
+	width:100%;
+}
+#section > .searchbox > figure {
+	width:15%;
+	float:left;
+}
+#section > .searchbox > .search {
+	width:70%;
+	float:left;
+	position:relative;
+	margin:0px auto;
+}
+.width {
+	width:90% !important;
+	margin:0px 5% !important;
+}
+#section > .searchbox > .search input{
+	width:100%;
+	height:44px;
+	line-height:44px;
+	border-radius:6px;
+	-webkit-border-radius:6px;
+	-moz-border-radius:6px;
+	-ms-border-radius:6px;
+	background-color:rgba(100,100,100,0.4);
+	padding:0px 10px 0px 50px;
+	margin:10px auto;
+	font-size:16px;
+	color:#fff;
+}
+#section > .searchbox > .search img {
+	height:22px;
+	position:absolute;
+	left:10px;
+	top:21px;
+}
+#section > .searchbox > figure img {
+	height:22px;
+	margin:14px auto 0px;
+}
+#section > .searchbox > figure figcaption {
+	line-height:22px;
+	font-size:12px;
+	text-align:center;
+	color:#FFF;
+}
+
+#section > .banner {
+	position:relative;
+}
+#section > .banner .bannerbox {
+	width:100%;
+}
+#section > .banner .bannerbox img {
+	width:100%;
+	float:left;
+}
+#section > .banner .ctrlbox {
+	height:20px;
+	position:absolute;
+	bottom:0px;
+	left:50%;
+	margin-left:-36px;
+}
+#section > .banner .ctrlboxsmall {
+	position:relative;
+}
+
+.current {
+	background-color:#e9901f !important;
+}
+#section > .banner .ctrlboxsmall .ctrl {
+	width:8px;
+	height:8px;
+	border-radius:2px;
+	-webkit-border-radius:2px;
+	-moz-border-radius:2px;
+	-ms-border-radius:2px;
+	background-color:#e6c2db;
+	border:1px solid #e9901f;
+	margin:6px 5px;
+	float:left;
+	opacity:0.8;
+	cursor:pointer;
+}
+#section > .hot {
+	width:95%;
+	background-color:#FFF;
+	padding:0px 10px;
+	margin:10px auto;
+	border-radius:4px;
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	-ms-border-radius:4px;
+}
+#section > .hot h2 {
+	font-size:14px;
+	line-height:36px;
+	float:left;
+}
+#section > .hot hgroup {
+	float:left;
+}
+#section > .hot hgroup h4 {
+	line-height:36px;
+	font-size:14px;
+	font-weight:normal;
+}
+#section > .hot .hotbox {
+	height:36px;
+	overflow:hidden;
+}
+
+#section > .nav {
+	width:95%;
+	margin:20px auto 10px;
+}
+#section > .nav figure {
+	width:25%;
+	float:left;
+	margin:0px 0px 10px;
+}
+#section > .nav figure img {
+	width:55%;
+	margin:0px auto;
+}
+#section > .nav figure figcaption {
+	font-size:12px;
+	color:#323232;
+	line-height:36px;
+	text-align:center;
+}
+
+#section > .act .actbox {
+	width:50%;
+	float:left;
+	background-color:#FFF;
+	border:1px solid #dadada;
+	border-left:none;
+	padding:0px 10px;
+	margin:0px 0px 10px;
+}
+#section > .act .actbox .dot,#section > .inform .dot {
+	float:left;
+	width:4px;
+	height:4px;
+	background-color:#e9901f;
+	margin:20px 6px 0px 0px;
+}
+#section > .act .actbox h3,#section > .inform h3 {
+	float:left;
+	font-size:14px;
+	line-height:44px;
+	color:#000;
+}
+#section > .act .actbox h4 {
+	float:right;
+	font-size:14px;
+	line-height:44px;
+	color:#00F;
+}
+
+#section > .inform .informbox {
+	width:100%;
+	background-color:#FFF;
+	border:1px solid #dadada;
+	border-left:none;
+	border-right:none;
+	padding:0px 10px;
+	margin:0px 0px 10px;
+}
+#section > .inform .informcontent {
+	width:95%;
+	margin:0px auto;
+}
+#section > .inform .informcontent figure {
+	float:left;
+	width:48%;
+	margin:0px 1% 10px;
+	background-color:#FFF;
+	border-radius:8px;
+	-webkit-border-radius:8px;
+	-moz-border-radius:8px;
+	-ms-border-radius:8px;
+}
+#section > .inform .informcontent figure img {
+	width:100%;
+	border-radius:8px 8px 0px 0px;
+	-webkit-border-radius:8px 8px 0px 0px;
+	-moz-border-radius:8px 8px 0px 0px;
+	-ms-border-radius:8px 8px 0px 0px;
+}
+#section > .inform .informcontent figure figcaption {
+	padding:0px 8px;
+	font-size:12px;
+	line-height:22px;
+	height:44px;
+	margin:8px 0px;
+	color:#323232;
+	text-align:center;
+ 	overflow : hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+
+@media (min-width:375px) and (max-width:480px) {
+	#section > .searchbox > figure figcaption,#section > .nav figure figcaption,#section > .inform .informcontent figure figcaption {
+		font-size:14px;
+	}
+	#section > .searchbox > .search input,#section > .hot h2,#section > .hot hgroup h4,#section > .act .actbox h3,#section > .inform h3,#section > .act .actbox h4 {
+		font-size:16px;
+	}
+	
+}
+@media (min-width:481px) and (max-width:621px) {
+	#section > .searchbox > figure figcaption,#section > .nav figure figcaption,#section > .inform .informcontent figure figcaption {
+		font-size:16px;
+	}
+	#section > .searchbox > .search input,#section > .hot h2,#section > .hot hgroup h4,#section > .act .actbox h3,#section > .inform h3,#section > .act .actbox h4 {
+		font-size:18px;
+	}
+	
+	#section > .act .actbox h4 {
+		font-size:20px;
+	}
+	#section > .nav figure figcaption {
+		font-size:18px;
+	}
+	#section > .hot h2,#section > .hot hgroup h4,#section > .act .actbox h3,#section > .inform h3 {
+		font-size:22px;
+	}
+}
+@media (min-width:622px) {
+	#section > .searchbox > figure figcaption,#section > .nav figure figcaption,#section > .inform .informcontent figure figcaption {
+		font-size:18px;
+	}
+	#section > .searchbox > .search input {
+		font-size:20px;
+		height:52px;
+		line-height:52px;
+	}
+	#section > .searchbox > .search img {
+		height:26px;
+		top:22px;
+	}
+	#section > .searchbox > figure img {
+		height:26px;
+		margin:14px auto 2px;
+	}
+	#section > .hot h2,#section > .hot hgroup h4,#section > .act .actbox h3,#section > .inform h3,#section > .act .actbox h4 {
+		font-size:20px;
+	}
+	
+	#section > .act .actbox h4 {
+		height:60px;
+		line-height:60px;
+		font-size:22px;
+	}
+	#section > .hot h2,#section > .hot hgroup h4,#section > .act .actbox h3,#section > .inform h3 {
+		font-size:24px;
+	}
+	#section > .nav figure figcaption {
+		font-size:20px;
+	}
+}
+
+
+
+
+

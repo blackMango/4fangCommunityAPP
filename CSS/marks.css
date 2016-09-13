@@ -1,0 +1,137 @@
+@charset "utf-8";
+/* CSS Document */
+
+#section > h1 {
+	width:72px;
+	height:72px;
+	-webkit-border-radius:72px;
+	-moz-border-radius:72px;
+	-ms-border-radius:72px;
+	-o-border-radius:72px;
+	border-radius:72px;
+	border:2px solid #e9901f;
+	color:#e9901f;
+	font-size:28px;
+	line-height:72px;
+	text-align:center;
+	margin:30px auto 10px;
+}
+#section > h2 {
+	color:#646464;
+	font-size:14px;
+	line-height:24px;
+	text-align:center;
+	font-weight:normal;
+}
+#section > .detail {
+	width:93%;
+	margin:10px 3%;
+}
+#section > .detail h3 {
+	color:#646464;
+	font-size:14px;
+	line-height:32px;
+	font-weight:normal;
+	border-bottom:1px solid #dadada;
+}
+#section > .detail hgroup {
+	border-bottom:1px solid #dadada;
+	padding:4px 0px;
+}
+#section > .detail h4 {
+	width:80%;
+	float:left;
+	color:#646464;
+	font-size:12px;
+	line-height:32px;
+	font-weight:normal;
+}
+#section > .detail h4 span {
+	color:#646464;
+	font-size:12px;
+	line-height:32px;
+	font-weight:normal;
+}
+#section > .detail h5 {
+	float:right;
+	color:#646464;
+	font-size:12px;
+	line-height:32px;
+	font-weight:normal;
+}
+#section > .detail time {
+	float:right;
+	color:#646464;
+	font-size:12px;
+	line-height:32px;
+	font-weight:normal;
+}
+
+
+
+@media (min-width:375px) and (max-width:480px) {
+	#section > h1 {
+		font-size:30px;
+		width:80px;
+		height:80px;
+		-webkit-border-radius:80px;
+		-moz-border-radius:80px;
+		-ms-border-radius:80px;
+		-o-border-radius:80px;
+		border-radius:80px;
+		line-height:80px;
+	}
+	#section > h2,#section > .detail h3 {
+		font-size:16px;
+	}
+	#section > .detail h4,#section > .detail h4 span,#section > .detail h5,#section > .detail time {
+		font-size:14px;
+	}
+}
+
+@media (min-width:481px) and (max-width:621px) {
+	#section > h1 {
+		font-size:32px;
+		width:88px;
+		height:88px;
+		-webkit-border-radius:88px;
+		-moz-border-radius:88px;
+		-ms-border-radius:88px;
+		-o-border-radius:88px;
+		border-radius:88px;
+		line-height:88px;
+	}
+	#section > h2,#section > .detail h3 {
+		font-size:18px;
+	}
+	#section > .detail h4,#section > .detail h4 span,#section > .detail h5,#section > .detail time {
+		font-size:16px;
+	}
+}
+
+@media (min-width:622px) {
+	#section > h1 {
+		font-size:34px;
+		width:96px;
+		height:96px;
+		-webkit-border-radius:96px;
+		-moz-border-radius:96px;
+		-ms-border-radius:96px;
+		-o-border-radius:96px;
+		border-radius:96px;
+		line-height:96px;
+	}
+	#section > h2,#section > .detail h3 {
+		font-size:20px;
+	}
+	#section > .detail h4,#section > .detail h4 span,#section > .detail h5,#section > .detail time {
+		font-size:18px;
+	}
+}
+
+
+
+
+
+
+

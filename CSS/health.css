@@ -1,0 +1,103 @@
+@charset "utf-8";
+/* CSS Document */
+
+#section > .shop {
+	margin:10px 0px;
+}
+#section > .shop > .figure1 {
+	width:100%;
+	background-color:#eee;
+	padding:0px 2%;
+}
+#section > .shop > figure h2 {
+	float:left;
+	font-size:14px;
+	color:#000;
+	line-height:36px;
+}
+#section > .shop > figure h5 {
+	float:left;
+	font-size:12px;
+	color:#646464;
+	line-height:36px;
+	margin:1px 2px 0px;
+}
+#section > .shop > figure .img {
+	float:left;
+}
+#section > .shop > figure .img img {
+	float:left;
+	height:10px;
+	margin:14px 2px 0px;
+}
+#section > .shop > figure h4 {
+	float:right;
+	font-size:12px;
+	color:#646464;
+	line-height:36px;
+}
+#section > .shop > .figure {
+	background-color:#FFF;
+	border-bottom:1px dashed #dadada;
+	padding:10px 2%;
+}
+#section > .shop > figure h3 {
+	font-size:12px;
+	color:#323232;
+	line-height:24px;
+	font-weight:normal;
+}
+#section > .shop > .figure figcaption {
+	width:82%;
+	float:left;
+}
+#section > .shop > .figure img {
+	height:30px;
+	float:right;
+	margin:8px 10px;
+	cursor:pointer;
+}
+
+@media (min-width:375px) and (max-width:480px) {
+	#section > .shop > figure h2,#section > .shop > figure h4 {
+		font-size:16px;
+	}
+	#section > .shop > figure h5,#section > .shop > figure h3 {
+		font-size:14px;
+	}
+	#section > .shop > .figure figcaption {
+		width:86%;
+	}
+}
+
+@media (min-width:481px) and (max-width:621px) {
+	#section > .shop > figure h2,#section > .shop > figure h4 {
+		font-size:18px;
+	}
+	#section > .shop > figure h5,#section > .shop > figure h3 {
+		font-size:16px;
+	}
+	#section > .shop > .figure figcaption {
+		width:88%;
+	}
+}
+@media (min-width:622px) {
+	#section > .shop > figure h2,#section > .shop > figure h4 {
+		font-size:20px;
+	}
+	#section > .shop > figure h5,#section > .shop > figure h3 {
+		font-size:18px;
+	}
+	#section > .shop > .figure figcaption {
+		width:90%;
+	}
+}
+
+
+
+
+
+
+
+
+

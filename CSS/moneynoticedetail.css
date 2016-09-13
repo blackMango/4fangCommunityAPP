@@ -1,0 +1,86 @@
+@charset "utf-8";
+/* CSS Document */
+
+#section > .notice {
+	padding:8px 0px;
+	margin:10px 0px;
+	background-color:#fff;
+	border-bottom:1px solid #dadada;
+	border-top:1px solid #dadada;
+}
+#section > .notice dl {
+	margin:5px 0px;
+	text-align:center;
+	width:50%;
+	float:left;
+}
+#section > .notice dl dt {
+	font-size:14px;
+	color:#323232;
+	line-height:28px;
+}
+#section > .notice dl dd {
+	font-size:22px;
+	color:#e9901f;
+	line-height:30px;
+}
+#section > .text {
+	margin:10px 0px;
+	background-color:#fff;
+	border-top:1px solid #dadada;
+}
+
+#section > .text hgroup {
+	padding:0px 10px;
+	border-bottom:1px solid #dadada;
+}
+
+#section > .text hgroup h3 {
+	float:left;
+	font-weight:normal;
+	color:#000;
+	font-size:14px;
+	line-height:44px;
+}
+#section > .text hgroup h4 {
+	float:right;
+	font-weight:normal;
+	color:#323232;
+	font-size:14px;
+	line-height:44px;
+}
+
+
+
+@media (min-width:375px) and (max-width:480px) {
+	#section > .notice dl dt,#section > .text hgroup h3,#section > .text hgroup h4 {
+		font-size:16px;
+	}
+	#section > .notice dl dd {
+		font-size:24px;
+	}
+}
+
+@media (min-width:481px) and (max-width:621px) {
+	#section > .notice dl dt,#section > .text hgroup h3,#section > .text hgroup h4 {
+		font-size:18px;
+	}
+	#section > .notice dl dd {
+		font-size:26px;
+	}
+}
+
+@media (min-width:622px) {
+	#section > .notice dl dt,#section > .text hgroup h3,#section > .text hgroup h4 {
+		font-size:20px;
+	}
+	#section > .notice dl dd {
+		font-size:28px;
+	}
+}
+
+
+
+
+
+

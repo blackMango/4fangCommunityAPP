@@ -1,0 +1,88 @@
+@charset "utf-8";
+/* CSS Document */
+#section {
+	margin:10px 0px 0px;
+}
+#section hr {
+	border-bottom:none;
+	border-top:1px solid #dadada;
+	margin:0px;
+}
+
+#section > .password,#section > .test {
+	background-color:#FFF;
+	padding:0px 10px;
+}
+#section > .password input[type = text] {
+	width:100%;
+	display:inline-block;
+	border:none;
+	line-height:36px;
+	height:36px;
+	color:#000;
+	font-size:14px;
+	margin:4px 0px;
+}
+
+#section > .test input[type = tel] {
+	display:inline-block;
+	width:65%;
+	float:left;
+	border:none;
+	line-height:36px;
+	height:36px;
+	color:#000;
+	font-size:14px;
+	margin:4px 0px;
+}
+#section > .test span {
+	width:32%;
+	line-height:30px;
+	height:30px;
+	color:#fff;
+	font-size:12px;
+	text-align:center;
+	background-color:#cdcdcd;
+	-webkit-border-radius:6px;
+	-moz-border-radius:6px;
+	-ms-border-radius:6px;
+	-o-border-radius:6px;
+	border-radius:6px;
+	float:left;
+	font-weight:bold;
+	margin:7px 0px;
+	cursor:pointer;
+}
+
+
+@media (min-width:375px) and (max-width:480px) {
+	#section > .password input[type = text],#section > .test input[type = tel] {
+	font-size:16px;
+	}
+	#section > .test span {
+	font-size:14px;
+	}
+}
+@media (min-width:481px) and (max-width:620px) {
+	#section > .password input[type = text],#section > .test input[type = tel] {
+	font-size:18px;
+	}
+	#section > .test span {
+	font-size:16px;
+	}
+}
+@media (min-width:621px) {
+	#section > .password input[type = text],#section > .test input[type = tel] {
+	font-size:20px;
+	}
+	#section > .test span {
+	font-size:18px;
+	}
+}
+
+
+
+
+
+
+

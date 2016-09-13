@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+#section span {
+	display:block;
+	border:1px dashed #dadada;
+	-webkit-border-radius:6px;
+	-moz-border-radius:6px;
+	-ms-border-radius:6px;
+	-o-border-radius:6px;
+	border-radius:6px;
+	width:94%;
+	line-height:44px;
+	margin:20px auto;
+	font-size:16px;
+	color:#000;
+	text-align:center;
+}
+
+@media (min-width:481px) and (max-width:621px) {
+	#section span {
+		font-size:18px;
+	}
+}
+@media (min-width:481px) and (max-width:621px) {
+	#section span {
+		font-size:20px;
+	}
+}
+
+@media (min-width:622px) {
+	#section span {
+		font-size:22px;
+	}
+}
+

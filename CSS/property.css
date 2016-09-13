@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+#section > .nav {
+	padding:0px 0.5%;
+	margin:10px 0px;
+}
+#section > .nav figure {
+	float:left;
+	width:31%;
+	margin:0px 1% 10px;
+	position:relative;
+}
+#section > .nav figure img {
+	width:100%;
+}
+#section > .nav figure figcaption {
+	position:absolute;
+	bottom:0px;
+	left:0px;
+	width:80%;
+	text-align:center;
+	margin:0px 10%;
+	font-size:14px;
+	color:#fff;
+	line-height:44px;
+	border-top:1px dashed rgba(160,160,160,0.6);
+}
+
+
+
+
+@media (min-width:375px) and (max-width:480px) {
+	#section > .nav figure figcaption {
+		font-size:16px;
+	}
+}
+@media (min-width:481px) and (max-width:621px) {
+	#section > .nav figure figcaption {
+		font-size:18px;
+	}
+}
+@media (min-width:622px) {
+	#section > .nav figure figcaption {
+		font-size:20px;
+	}
+}
+
